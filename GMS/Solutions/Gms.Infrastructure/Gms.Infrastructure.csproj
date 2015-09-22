@@ -130,6 +130,8 @@
     <Compile Include="CommonCodeRepository.cs" />
     <Compile Include="SysLogRepository.cs" />
     <Compile Include="ISysLogRepository.cs" />
+    <Compile Include="ITerminalRepository.cs" />
+    <Compile Include="TerminalRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gms.Common\Gms.Common.csproj">

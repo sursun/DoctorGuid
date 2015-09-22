@@ -1,13 +1,12 @@
 ﻿
 @using Gms.Common
-@using Gms.Domain
-@model Gms.Domain.Doctor
+@model Gms.Domain.User
 
 @{
     Layout = null;
 }
 
-<form id="doctorform" method="post" action="/Doctor/CreateOrUpdate">
+<form id="entityform" method="post" action="/User/CreateOrUpdate">
 
     <table>
         <tr>
@@ -57,7 +56,7 @@
         <tr>
             <td>性别</td>
             <td>
-                @Html.DropDownListForEnum(c=>c.Sex,"请选择",null)
+                @Html.DropDownListForEnum(c=>c.Gender,"请选择",null)
             </td>
         </tr>
 

@@ -11,6 +11,7 @@
     <AssemblyName>Gms.Common</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,6 +46,7 @@
     <Compile Include="DataTableExtensions.cs" />
     <Compile Include="DateTimeExtensions.cs" />
     <Compile Include="HtmlEnumExtentions.cs" />
+    <Compile Include="HttpRequestBaseExtentions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryableExtensions.cs" />
     <Compile Include="QueryBase.cs" />

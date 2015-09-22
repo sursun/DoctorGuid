@@ -53,7 +53,17 @@ namespace Gms.Domain
         /// 手机号码
         /// </summary>
         public virtual String Mobile { get; set; }
-        
+
+        /// <summary>
+        /// 职称
+        /// </summary>
+        public virtual String ProfessionalLevel { get; set; }
+
+        /// <summary>
+        /// 职务
+        /// </summary>
+        public virtual String Duty { get; set; }
+
         /// <summary>
         /// 启用|禁用
         /// </summary>

@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Gms.Common;
 using SharpArch.Domain.DomainModel;
 
 namespace Gms.Domain
 {
-    public class Client:Entity
+    public class Terminal:Entity
     {
         /// <summary>
         /// 所属部门
@@ -47,5 +48,11 @@ namespace Gms.Domain
         /// 创建时间
         /// </summary>
         public virtual DateTime CreateTime { get; set; }
+    }
+
+
+    public class TerminalQuery : QueryBase
+    {
+
     }
 }

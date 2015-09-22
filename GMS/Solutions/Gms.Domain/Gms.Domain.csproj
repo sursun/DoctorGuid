@@ -94,7 +94,7 @@
     <Compile Include="Attribute\FieldLengthAttribute.cs" />
     <Compile Include="Attribute\FieldNeedAttribute.cs" />
     <Compile Include="Attribute\NotMapAttribute.cs" />
-    <Compile Include="Client.cs" />
+    <Compile Include="Terminal.cs" />
     <Compile Include="Department.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="RoleConstants.cs" />

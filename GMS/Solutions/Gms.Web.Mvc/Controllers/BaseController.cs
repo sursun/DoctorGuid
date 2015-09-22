@@ -20,6 +20,7 @@ namespace Gms.Web.Mvc.Controllers
         public IUserRepository UserRepository { get; set; }
         public IDepartmentRepository DepartmentRepository { get; set; }
         public ICommonCodeRepository CommonCodeRepository { get; set; }
+        public ITerminalRepository TerminalRepository { get; set; }
         public ISysLogRepository SysLogRepository { get; set; }
 
 
